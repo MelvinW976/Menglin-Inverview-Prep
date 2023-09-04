@@ -5,6 +5,8 @@ An array is a collection of items of same data type stored at contiguous memory 
 **easier to know the value of a paticular element by adding an offset to the base element**
 
 2. Java vs Python
+# Python
+
 ```python
 pop(i) -> pop ith element
 insert(i) -> insert into ith pos
@@ -12,6 +14,8 @@ remove('狗蛋')
 index('狗蛋')
 reverse()
 ```
+
+# Java
 ```Java
 int[] b = new int[5];
 int[] c= new int[] {5, 4, 0, 6, 1};
