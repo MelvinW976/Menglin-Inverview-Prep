@@ -1,6 +1,8 @@
 1. Because there are n+1 elements in arr and arr[i] in [1,n]
 2. So, for a number mid, if we count the number <= mid, if count > mid, target number is [left, mid-1]
 3. otherwise, [mid+1, right]. 
+# 面对n个数，范围1-n这种可以考虑： count， 嵌套：nums[nums[i]], hashing
+
 ```python
 
 class Solution:
