@@ -17,7 +17,8 @@ class Solution:
 ```
 
 # another similar problem need to attention:
-# 找零钱II， 给一个target，多少种凑出零钱的方法，这样就不用在意顺序
+# 找零钱II， 给一个target，多少种凑出零钱的方法，这样就不用在意顺序， 这俩的区别就是for循环谁先的问题
+# create use an outer loop of coins so that a combination once used cannot be used again.
 
 ```python
 class Solution:
