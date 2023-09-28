@@ -3,6 +3,13 @@ Then we go back from the decoding position.
 If it's S[i] = d is a digit, then N = N / d before repeat and K = K % N is what we want.
 If it's S[i] = c is a character, we return c if K == 0 or K == N
 
+- 知道%号的使用，什么时候该用，什么时候
+开始的时候
+K : '-----'
+N : '--'---'---'
+N 变成了一个单位， K要找到正确的位置
+K % N 
+N : '--'
 ```python
 class Solution:
     def decodeAtIndex(self, S: str, K: int) -> str:
